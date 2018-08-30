@@ -1,0 +1,57 @@
+<html lang="en-CA">
+
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+  <div class="w3-row">
+    <div class="w3-green w3-container w3-twothird">
+      <div class="w3-bar">
+        <a data-res="nav-home" href="index.html" class="w3-bar-item w3-button">Home</a>
+        <a data-res="nav-about" href="about.html" class="w3-bar-item w3-button">About</a>
+      </div>
+    </div>
+    <div class="w3-green w3-container w3-third">
+      <div class="w3-bar">
+        <div style="float:right">
+          <a id="languageToggle" data-res="langToggle" href="index.html" class="w3-bar-item" style="text-align: right">français</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h1 data-res="pageHeading">Home</h1>
+  <p data-res="bodyCopy">The home page fetches the localized data from a JSON object embedded at the top of the page
+    during the server rendering event.</p>
+  <script>
+    // This JSON object would be injected into the page during the server rendering event
+    const embeddedRes = {
+      "home": {
+        "nav-home": {
+          "en-ca": "Home",
+          "fr-ca": "Maison"
+        },
+        "nav-about": {
+          "en-ca": "About",
+          "fr-ca": "Sur"
+        },
+        "pageHeading": {
+          "en-ca": "Home",
+          "fr-ca": "Maison"
+        },
+        "bodyCopy": {
+          "en-ca": "The home page fetches the localized data from a JSON object embedded at the top of the page during the server rendering event.",
+          "fr-ca": "La page d'accueil extrait les données localisées d'un objet JSON incorporé en haut de la page lors de l'événement de rendu du serveur."
+        },
+        "langToggle": {
+          "en-ca": "français",
+          "fr-ca": "english"
+        }
+      }
+    }
+  </script>
+  <script src="app.js"></script>
+</body>
+
+</html>

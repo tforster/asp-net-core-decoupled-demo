@@ -1,0 +1,8 @@
+{
+  "name": "asp-net-core-decoupled-demo",
+  "version": "1.0.0",
+  "description": "A very quick and dirty demonstration showing how localized strings can be toggled directly in the UI using Javascript in a decoupled fashion.",  
+  "keywords": [],
+  "author": "Troy Forster <troy.forster@gmail.com> (https://www.tforster.com)",
+  "license": "MIT"
+}

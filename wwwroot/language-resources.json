@@ -1,0 +1,30 @@
+{
+    "home": {
+        "nav-home": {
+            "en-ca": "Home",
+            "fr-ca": "Maison"
+        },
+        "nav-about": {
+            "en-ca": "About",
+            "fr-ca": "Sur"
+        },
+        "headline": {
+            "en-ca": "Welcome to our minimalist site",
+            "fr-ca": "Bienvenue sur notre site minimaliste"
+        }
+    },
+    "about": {
+        "nav-home": {
+            "en-ca": "Home",
+            "fr-ca": "Maison"
+        },
+        "nav-about": {
+            "en-ca": "About",
+            "fr-ca": "Sur"
+        },
+        "body-copy": {
+            "en-ca": "Area delivers a complete range of integrated marketing and communication services differentiating ourselves from single channel advertising providers. Since 1995 Area has supported brands with creative strategy, printed materials, email and other traditional marketing services. Area has produced campaigns and internal communications for such industry sectors as Telecommunications, Technology, Manufacturing, Media, Home Builders, Retail, Sales Organizations, Financial Institutions, Health Care and Information Services.",
+            "fr-ca": "Area propose une gamme complète de services de marketing et de communication intégrés qui se distinguent des fournisseurs de publicité à canal unique. Depuis 1995, Area a soutenu des marques avec une stratégie créative, des documents imprimés, des e-mails et d’autres services de marketing traditionnels. Area a produit des campagnes et des communications internes pour des secteurs industriels tels que les télécommunications, la technologie, la fabrication, les médias, les constructeurs de maisons, le commerce de détail, les organisations de vente, les institutions financières, les soins de santé et les services d'information."
+        }
+    }
+}
